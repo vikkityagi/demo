@@ -1,0 +1,239 @@
+<html>
+    <head>
+        <style>
+            #login-dp{
+                min-width: 250px;
+                padding: 14px 14px 0;
+                overflow:hidden;
+                background-color:rgba(255,255,255,.8);
+            }
+            #login-dp .help-block{
+                font-size:12px    
+            }
+            #login-dp .bottom{
+                background-color:rgba(255,255,255,.8);
+                border-top:1px solid #ddd;
+                clear:both;
+                padding:14px;
+            }
+            #login-dp .social-buttons{
+                margin:12px 0    
+            }
+            #login-dp .social-buttons a{
+                width: 49%;
+            }
+            #login-dp .form-group {
+                margin-bottom: 10px;
+            }
+            .btn-fb{
+                color: #fff;
+                background-color:#3b5998;
+            }
+            .btn-fb:hover{
+                color: #fff;
+                background-color:#496ebc 
+            }
+            .btn-tw{
+                color: #fff;
+                background-color:#55acee;
+            }
+            .btn-tw:hover{
+                color: #fff;
+                background-color:#59b5fa;
+            }
+            @media(max-width:768px){
+                #login-dp{
+                    background-color: inherit;
+                    color: #fff;
+                }
+                #login-dp .bottom{
+                    background-color: inherit;
+                    border-top:0 none;
+                }
+            }
+        </style>
+        <!-- Bootstrap CSS -->
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+        <!-- Font Awesome CSS -->
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+        <!-- jQuery -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <!-- Bootstrap JS -->
+        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+    </head>
+    <body >
+        <nav class="navbar navbar-default navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="#">G<span>ilman</span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Login User</a></li>
+            <li><a href="#">Login police</a></li>
+            <li><a href="#">Login Doctor</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><p class="navbar-text">Already have an account?</p></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+			<ul id="login-dp" class="dropdown-menu">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+								Login via
+								<div class="social-buttons">
+									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+								</div>
+                                or
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> keep me logged-in
+											 </label>
+										</div>
+								 </form>
+							</div>
+							<div class="bottom text-center">
+								New here ? <a href="#"><b>Join Us</b></a>
+							</div>
+					 </div>
+				</li>
+			</ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <img src="E:\image/Your paragraph text.png" alt="image"/>
+
+    <div class="container">
+        <div class="row">
+            <div class="card-group">
+                <div class="card">
+                  <a href="#"><img src="https://jetformbuilder.com/wp-content/uploads/2021/08/user-login-1.svg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#"><img src="data:image/jpeg;base64,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" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#"><img src="https://superdr.in/Home/images/icons/doctor.png" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    
+
+    <!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!-- Grid row-->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="bi bi-facebook"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+              <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row-->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+    </body>
+</html>
